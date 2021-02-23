@@ -4,3 +4,5 @@
 #+DATE: <2021-02-23 Tue>
 
 SC Aquaplant SRL was born out of a passion for flowers. Founded in 2006 in Oradea, Romania, it specialized, while active, in growing and selling water lilies.
+
+[[./screenshot.png]]
