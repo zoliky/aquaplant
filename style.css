@@ -1,0 +1,194 @@
+/* -----------------------<elemente generale>------------------------ */ 
+body {
+	/*background-color: #ebebeb;*/
+	background: #ebebeb url('images/background.jpg') repeat fixed;
+	font: 12px verdana, arial, helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main {
+	background: url('images/wrap.gif') repeat-y center;
+	margin: 0px auto;
+	padding: 0px 8px;
+	width: 760px;
+}
+
+/* -----------------------<elemente header>--------------------------- */
+#header {
+	position: relative;
+	background: #fff url('images/logobg.jpg') no-repeat;
+	height: 130px;
+}
+
+#headermenu ul.items {
+	background: url('images/logobg-opacity.jpg') bottom no-repeat;
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	bottom: 0px;
+	width: 740px;
+}
+
+#headermenu ul.items li {
+	display: inline;
+	margin: 0px;
+}
+
+#headermenu ul.items, ul.items li a {
+	padding: 5px 10px 6px;
+	text-decoration: none;
+}
+
+#headermenu ul.items li a {
+	font: 1em verdana, arial, sans-serif;
+	margin: 0;
+	color: #000;
+	font-weight: bold;
+}
+
+#headermenu ul.items li a:hover {
+	background: #000;
+	color: #fff !important;
+	text-decoration: none;
+}
+
+
+#headermenu ul.items li a.selected, #headermenu ul.items li a.selected:hover {
+	color: #fff !important;
+	background: #000;
+	text-decoration: none;
+}
+
+/* -----------------------<reclama>-------------------------------- */
+#advert {
+	text-align: center;
+	margin: 23px 0px 5px 0px;
+}
+
+#content {
+	width: 730px;
+	margin: 0px 15px 15px;
+}
+
+h1, h2 {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1.title {
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+h2.title {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+/* -----------------------<elemente soiuri>-------------------------------- */
+#speciesleft {
+	float: left;
+	width: 215px;
+	height: 400px;
+}
+
+#speciesleft ul {
+	padding: 0px;
+	margin: 0px 16px;
+}
+
+#speciesleft ul li {
+	padding: 2px 0px;
+}
+
+#speciesleft ul li a {
+	text-decoration: none;
+}
+
+#speciesright {
+	float: left;
+	padding: 10px 0px;
+	margin: 4px 0px 0px 2px;
+	border: 1px solid #ccc;
+	width: 510px;
+}
+
+#speciesright img {
+	float: left;
+	margin-right: 6px;
+}
+
+.tabcontent {
+	display:none;
+	padding: 0px 8px;
+}
+
+/* -----------------------<intretinere nuferi>-------------------------------- */
+p.descr {
+	margin-top: 0px;
+}
+
+/* -----------------------<contact>------------------------------------------- */
+#contactform  {
+	float: left;
+	width: 400px;
+	border-right: 1px dashed #ccc;
+	margin-bottom: 15px;
+}
+
+#contactright {
+	float: left;
+	width: 300px;
+	margin-left: 15px;
+}
+
+.cpfix {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+#contactform .frmbox {
+	width: 340px;
+}
+
+/* -----------------------<footer>------------------------------------------- */
+#footer {
+	clear: both;
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	text-align: center;
+	padding: 4px;
+}
+
+#spacer {
+	padding: 10px;
+}
+
+.asterisk {
+	color: red;
+}
+
+.errormsg {
+	color: red;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#links {
+	clear: both;
+	text-align: center;
+	padding: 6px;
+	font-size: 10px;
+}
+
+#links a {
+	text-decoration: none;
+}
+
+#links a:hover {
+  text-decoration: underline;
+}
